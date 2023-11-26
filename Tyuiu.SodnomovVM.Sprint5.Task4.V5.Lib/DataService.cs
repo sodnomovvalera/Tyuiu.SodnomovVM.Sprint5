@@ -14,7 +14,7 @@ namespace Tyuiu.SodnomovVM.Sprint5.Task4.V5.Lib
         {
             string strx = File.ReadAllText(path);
             double x = Convert.ToDouble(strx);
-            double res = Math.Round((4.26 * x / Math.Sin(x)),3);
+            double res = Math.Round((4.26 * x / Math.Sin(x);
             return res;
         }
     }

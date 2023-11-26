@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.SodnomovVM.Sprint5.Task4.V5.Lib;
+using Tyuiu.SodnomovVM.Sprint5.Task5.V6.Lib;
 using System.IO;
 
-namespace Tyuiu.SodnomovVM.Sprint5.Task4.V5
+namespace Tyuiu.SodnomovVM.Sprint5.Task5.V6
 {
     class Program
     {
@@ -30,7 +29,7 @@ namespace Tyuiu.SodnomovVM.Sprint5.Task4.V5
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask4V5.txt";
+            string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask5V6.txt";
 
             double res = ds.LoadFromDataFile(path);
 
@@ -39,7 +38,7 @@ namespace Tyuiu.SodnomovVM.Sprint5.Task4.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Файл:" + res);
+            Console.WriteLine("Результат" + res);
             Console.ReadKey();
         }
     }
