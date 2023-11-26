@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{1DDF1104
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SodnomovVM.Sprint5.Task0.V21", "Tyuiu.SodnomovVM.Sprint5.Task0.V21\Tyuiu.SodnomovVM.Sprint5.Task0.V21.csproj", "{964F6723-0067-43A2-A56C-9EEAEAC2D1D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SodnomovVM.Sprint5.Task0.V21.Lib", "Tyuiu.SodnomovVM.Sprint5.Task0.V21.Lib\Tyuiu.SodnomovVM.Sprint5.Task0.V21.Lib.csproj", "{ADBCAE46-3BF6-4994-9387-A26A9ACB145D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SodnomovVM.Sprint5.Task0.V21.Test", "Tyuiu.SodnomovVM.Sprint5.Task0.V21.Test\Tyuiu.SodnomovVM.Sprint5.Task0.V21.Test.csproj", "{55677A83-837D-469C-AE31-57EE8C3237F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,12 +35,22 @@ Global
 		{964F6723-0067-43A2-A56C-9EEAEAC2D1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{964F6723-0067-43A2-A56C-9EEAEAC2D1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{964F6723-0067-43A2-A56C-9EEAEAC2D1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBCAE46-3BF6-4994-9387-A26A9ACB145D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBCAE46-3BF6-4994-9387-A26A9ACB145D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBCAE46-3BF6-4994-9387-A26A9ACB145D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBCAE46-3BF6-4994-9387-A26A9ACB145D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55677A83-837D-469C-AE31-57EE8C3237F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55677A83-837D-469C-AE31-57EE8C3237F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55677A83-837D-469C-AE31-57EE8C3237F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55677A83-837D-469C-AE31-57EE8C3237F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{964F6723-0067-43A2-A56C-9EEAEAC2D1D2} = {DE78E1E6-ED5A-4925-838F-FE36CDB86407}
+		{ADBCAE46-3BF6-4994-9387-A26A9ACB145D} = {DE78E1E6-ED5A-4925-838F-FE36CDB86407}
+		{55677A83-837D-469C-AE31-57EE8C3237F1} = {DE78E1E6-ED5A-4925-838F-FE36CDB86407}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E33B117A-9446-4E7C-B1C8-3D3C73CEE932}
